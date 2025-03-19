@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciamentoUsuarios", "GerenciamentoUsuarios\GerenciamentoUsuarios.csproj", "{5F5CDBBC-5E69-41F8-9384-C9D63D7B91BA}"
 EndProject
@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciamentoUsuarios.Aplic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciamentoUsuarios.Communication", "GerenciamentoUsuarios.Communication\GerenciamentoUsuarios.Communication.csproj", "{572215D1-49D1-4138-AE06-36D5FA2234D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciamentoUsuarios.Exception", "GerenciamentoUsuarios.Exception\GerenciamentoUsuarios.Exception.csproj", "{1405D0CC-D565-4F24-9CC9-387FD1C80280}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciamentoUsuarios.Exceptions", "GerenciamentoUsuarios.Exception\GerenciamentoUsuarios.Exceptions.csproj", "{1405D0CC-D565-4F24-9CC9-387FD1C80280}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciamentoUsuarios.Infrastructure", "GerenciamentoUsuarios.Infrastructure\GerenciamentoUsuarios.Infrastructure.csproj", "{FBEA0B80-4B57-4929-BBFA-831CA6E4CEEB}"
 EndProject

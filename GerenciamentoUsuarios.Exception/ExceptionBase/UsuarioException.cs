@@ -1,4 +1,4 @@
-﻿namespace GerenciamentoUsuarios.Exception.ExceptionBase
+﻿namespace GerenciamentoUsuarios.Exceptions.ExceptionBase
 {
     public class UsuarioException : ArgumentException
     {

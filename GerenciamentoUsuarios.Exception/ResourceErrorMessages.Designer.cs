@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GerenciamentoUsuarios.Exception {
+namespace GerenciamentoUsuarios.Exceptions {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace GerenciamentoUsuarios.Exception {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("GerenciamentoUsuarios.Exception.ResourceErrorMessages", typeof(ResourceErrorMessages).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("GerenciamentoUsuarios.Exceptions.ResourceErrorMessages", typeof(ResourceErrorMessages).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

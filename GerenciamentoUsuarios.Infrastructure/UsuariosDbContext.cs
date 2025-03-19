@@ -5,7 +5,7 @@ namespace GerenciamentoUsuarios.Infrastructure
 {
     public class UsuariosDbContext : DbContext
     {
-        public DbSet<Usuarios> Usuario { get; set; }
+        public DbSet<Usuarios> Usuarios { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite($"Data Source={Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "gerenciamento-usuarios", "users.db")}");
