@@ -86,5 +86,14 @@ namespace GerenciamentoUsuarios.Exceptions {
                 return ResourceManager.GetString("NOME_INVALIDO", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Usuário não encontrado..
+        /// </summary>
+        public static string USUARIO_NAO_ENCONTRADO {
+            get {
+                return ResourceManager.GetString("USUARIO_NAO_ENCONTRADO", resourceCulture);
+            }
+        }
     }
 }

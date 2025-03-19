@@ -4,6 +4,6 @@ namespace GerenciamentoUsuarios.Communication.Responses
 {
     public class ResponseUsuariosDetailsJson
     {
-       public IList<Usuarios> ListaUsuarios { get; set; }
+        public IList<Usuarios> ListaUsuarios { get; set; } = [];
     }
 }

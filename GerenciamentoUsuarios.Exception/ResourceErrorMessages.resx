@@ -126,4 +126,7 @@
   <data name="NOME_INVALIDO" xml:space="preserve">
     <value>Nome inválido. Digite novamente.</value>
   </data>
+  <data name="USUARIO_NAO_ENCONTRADO" xml:space="preserve">
+    <value>Usuário não encontrado.</value>
+  </data>
 </root>
