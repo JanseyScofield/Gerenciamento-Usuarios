@@ -1,10 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using GerenciamentoUsuarios.Aplication.UseCases.Usuario.Get;
+using GerenciamentoUsuarios.Aplication.UseCases.Usuario.Register;
 using GerenciamentoUsuarios.Communication.Requests;
 using GerenciamentoUsuarios.Communication.Responses;
-using GerenciamentoUsuarios.Exceptions;
-using GerenciamentoUsuarios.Aplication;
-using GerenciamentoUsuarios.Aplication.UseCases.Usuario.Register;
 using GerenciamentoUsuarios.Exceptions.ExceptionBase;
+using Microsoft.AspNetCore.Mvc;
 
 namespace GerenciamentoUsuarios.Controllers
 {
@@ -28,6 +27,21 @@ namespace GerenciamentoUsuarios.Controllers
             catch (UsuarioException ex)
             {
                 return BadRequest(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet]
+        [ProducesResponseType(typeof(ResponseUsuariosDetailsJson), StatusCodes.Status200OK)]
+        public IActionResult ListarUsuarios()
+        {
+            try {
+                var useCase = new GetAllUsuariosUseCase();
+                var response = useCase.Execute();
+                return Ok(response);
             }
             catch (Exception ex)
             {
